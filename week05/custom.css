@@ -1,0 +1,5 @@
+.footer{   /* creiamo la classe footer per metterlo a fondo pagina*/
+    background-color: #bbd8f6;
+    position: absolute;
+    bottom: 0;
+}   
