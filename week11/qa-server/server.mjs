@@ -15,7 +15,7 @@ app.use(morgan('dev'));
 // set up and enable CORS
 const corsOptions = {
   origin: 'http://localhost:5173',
-  optionsSuccessStatus: 200
+  optionsSuccessStatus: 200     //default code per il success
 };
 app.use(cors(corsOptions));
 
